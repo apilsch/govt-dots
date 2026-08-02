@@ -10,7 +10,7 @@ brew bundle install
 
 mkdir -p ~/.config
 git clone https://github.com/oncomouse/neovim-config ~/.config/nvim
-git clone https://github.com/oncomouse/govt-emacs ~/.emacs.d
+git clone https://github.com/oncomouse/emacs-config ~/.emacs.d
 
 mkdir -p ~/.config/fish/conf.d
 echo "fzf --fish | source" > ~/.config/fish/conf.d/fzf.fish
